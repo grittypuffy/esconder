@@ -1,5 +1,5 @@
 <div
-  class="grid w-11/12 place-items-center cursor-pointer appearance-none rounded-md border border-gray-300/30 text-sm transition hover:border-gray-100/30 focus:border-solid focus:border-blue-600 focus:outline-none focus:ring-1 focus:ring-blue-600 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:opacity-75 text-slate-100"
+  class="grid w-11/12 place-items-center appearance-none rounded-md border border-gray-300/30 text-sm transition hover:border-gray-100/30 focus:border-solid focus:border-blue-600 focus:outline-none focus:ring-1 focus:ring-blue-600 disabled:cursor-not-allowed disabled:bg-gray-200 disabled:opacity-75 text-slate-100"
   x-data="upload"
 >
   <div
@@ -57,7 +57,7 @@
   </div>
   <template x-if="!files.length">
     <div
-      class="px-12 py-16 m-8 flex flex-col items-center border rounded-lg border-dashed bg-slate-300/10 dark:border-gray-100/20 dark:bg-slate-500/10 w-11/12"
+      class="px-12 py-16 m-8 flex flex-col cursor-pointer items-center border rounded-lg border-dashed bg-slate-300/10 dark:border-gray-100/20 dark:bg-slate-500/10 w-11/12"
       tabindex="0"
       @click="selectFiles"
     >
